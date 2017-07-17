@@ -23,7 +23,7 @@ namespace Homework_I.Controllers
             if (pageData.Account == "wilson.chen@iisigroup.com" &&
             pageData.Password == "123456")
             {
-                pageData.ReturnCode = 0;
+                //pageData.ReturnCode = 0;
                 pageData.Message =
                 $"您使用{pageData.Account}登入成功。";
                 TempData["LoginMsg"] = $"您使用{pageData.Account}登入成功。";
@@ -42,7 +42,7 @@ namespace Homework_I.Controllers
             }
             else
             {
-                pageData.ReturnCode = -1;
+                //pageData.ReturnCode = -1;
                 pageData.Message = "登入失敗！";
             }
             return View(pageData);

@@ -148,6 +148,7 @@
     </Compile>
     <Compile Include="Models\ViewModels\LogonViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ValidateAttribute\EmailAttribute.cs" />
     <Compile Include="ValidateAttribute\NoIsAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
