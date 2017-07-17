@@ -26,6 +26,10 @@ namespace Homework_I
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            // toastr
+            bundles.Add(new ScriptBundle("~/bundles/toastr").Include("~/Scripts/toastr.min.js"));
+            bundles.Add(new StyleBundle("~/Content/toastr").Include("~/Content/toastr.min.css"));
         }
     }
 }
